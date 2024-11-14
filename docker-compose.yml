@@ -29,7 +29,7 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - ./app:/var/www/project
+      - ./:/var/www/project
     networks:
       - nginx-php8.2-postgres
     depends_on:
